@@ -4,12 +4,157 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 开启理想视口 禁止用户缩放 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="./css/index.css">
     <title>外卖小页面</title>
 </head>
 
 <body>
-    12122444
+    <div id="box">
+        <!-- 内容区域 -->
+        <div class="mian">
+            <!-- 头部区域 -->
+            <div class="header">
+                <div class="btn-black">返回</div>
+                <div class="search-box">想吃啥搜一搜</div>
+                <!-- <input type="text" name="" id="" class="search-box" placeholder="想吃啥搜一搜"> -->
+                <div class="coupon">红包</div>
+                <div class="fav">收藏</div>
+            </div>
+            <!-- 导航区域 -->
+            <div class="tap-nav">
+                <div class="meal-nav active">
+                    <span>点餐</span>
+                    <img src="./img/top.png" class="img-top" alt="">
+                </div>
+                <div class="meal-nav">
+                    <span>评价</span>
+                    <em>4.6</em>
+
+                </div>
+                <div class="meal-nav">
+                    <span>商家</span>
+
+                </div>
+            </div>
+
+            <!-- 点餐区 -->
+            <div class="menu-content">
+                <!-- 点餐分类区域 -->
+                <div class="left">
+                    <ul class="side-list">
+                        <li><a href="" class="category">传统荤菜</a></li>
+                        <li class="active"><a href="" class="category">小海鲜</a></li>
+                        <li><a href="" class="category">卤菜</a></li>
+                        <li><a href="" class="category">干锅</a></li>
+                        <li><a href="" class="category">酒水</a></li>
+                    </ul>
+                </div>
+                <!-- 餐品展示区 -->
+                <div class="right">
+                    <div class="main-list">
+                        <div class="main-title">
+                            小海鲜
+                        </div>
+                        <ul class="food-list">
+                            <li class="food-item">
+                                <div class="item-left">
+                                    <img src="./img/shenhao.webp" alt="">
+                                </div>
+                                <div class="item-right">
+                                    <div class="top">
+                                        <div class="food-name">生蚝</div>
+                                        <p class="basic-name">原料：生蚝</p>
+                                        <p class="sales">月售 51</p>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="food-price"><span>¥</span>8.8</div>
+                                        <div class="btn_wrap"></div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="food-item">
+                                <div class="item-left">
+                                    <img src="./img/qiudaoyu.webp" alt="">
+                                </div>
+                                <div class="item-right">
+                                    <div class="top">
+                                        <div class="food-name">烤秋刀鱼</div>
+                                        <p class="basic-name">原料：龙利鱼</p>
+                                        <p class="sales">月售 12</p>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="food-price"><span>¥</span>10</div>
+                                        <div class="btn_wrap"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="food-item">
+                                <div class="item-left">
+                                    <img src="./img/syhj.webp" alt="">
+                                </div>
+                                <div class="item-right">
+                                    <div class="top">
+                                        <div class="food-name">蒜蓉花甲</div>
+                                        <p class="basic-name">原料：花甲</p>
+                                        <p class="sales">月售 28</p>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="food-price"><span>¥</span>38</div>
+                                        <div class="btn_wrap"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="food-item">
+                                <div class="item-left">
+                                    <img src="./img/xlhj.webp" alt="">
+                                </div>
+                                <div class="item-right">
+                                    <div class="top">
+                                        <div class="food-name">香辣花甲</div>
+                                        <p class="basic-name">原料：花甲</p>
+                                        <p class="sales">月售 6</p>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="food-price"><span>¥</span>36</div>
+                                        <div class="btn_wrap"></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+        <!-- 固定底部 -->
+        <div class="fix-footer">
+            <div class="left">
+                <div class="cart_circle">
+                </div>
+                <div class="cart_tip">
+                    <div class="price">
+                        ¥0
+                    </div>
+                    <div class="text">
+                        免配送费
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="cart__settle">
+                    <span class="price_tip">¥20起送
+                        未点必选品</span>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
